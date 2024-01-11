@@ -1,0 +1,12 @@
+LIB_README.md
+README.md
+pyproject.toml
+setup.py
+compgraph.egg-info/PKG-INFO
+compgraph.egg-info/SOURCES.txt
+compgraph.egg-info/dependency_links.txt
+compgraph.egg-info/requires.txt
+compgraph.egg-info/top_level.txt
+tests/test_examples.py
+tests/test_graph.py
+tests/test_operations.py

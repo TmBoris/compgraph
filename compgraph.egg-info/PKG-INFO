@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: compgraph
+Version: 0.0.1
+Summary: Packege for building compgraphs
+Author-email: Boris Panfilov <bspanfilov@edu.hse.ru>
+License: BSD-3-Clause
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: click
+
+Compute Graph
+---
+In this project you can find authors implementations of four compute graph solving different tasks.
+In general compute graph is a sequence of map, reduce, join and sort operations, which help us to 
+solve complex tasks.
+
+Here you can find solutions for:
+1. Word counter
+2. Inverted TF-IDF index calculation
+3. Top words based on Pointwise mutual information metric
+4. Average speed depending on weekday and hour
+
+Getting Started
+---
+#### Installing
+
+To install this libraty you simply need to clone this repository and run this command from your terminal:
+`pip install compgraph`
+
+#### Running Scripts
+To run our algorithms, we have command line interfaces. They are located in `/examples` folder. You can simply run them from your terminal:
+
+` python3 examples/run_inverted_index.py <input_file> <output_file>`
+
+`python3 examples/run_word_count.py <input_file> <output_file>`
+
+`python3 examples/run_yandex_maps.py <input_time_file> <input_length_file> <output_file>`
+
+`python3 examples/run_pmi.py <input_file> <output_file>`
+
+
+Running the tests
+---
+In our library we have tests that cover over than 97% of code. In order to run them you need to run this command from your terminal:
+`pytest compgraph`
+
+All the tests for library are in the `/tests` directory.
+
+## Authors
+* Boris Panfilov
